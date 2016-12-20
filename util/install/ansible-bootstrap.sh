@@ -26,7 +26,7 @@ if [[ -z "${CONFIGURATION_REPO}" ]]; then
 fi
 
 if [[ -z "${CONFIGURATION_VERSION}" ]]; then
-  CONFIGURATION_VERSION="master"
+  CONFIGURATION_VERSION="open-release/eucalyptus.2"
 fi
 
 if [[ -z "${UPGRADE_OS}" ]]; then
